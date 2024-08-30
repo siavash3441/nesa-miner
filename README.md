@@ -39,7 +39,7 @@ jq --version
 ### Hugging Face API Token
 
 - You will need a Hugging Face API token, [HuggingFace](https://huggingface.co/docs/hub/security-tokens)
-![image](https://i.postimg.cc/65Vs3wKx/nesa-fu.jpg)
+![image](https://i.postimg.cc/Z0kCLNKR/nesa-fu.jpg)
 
 ## Installation
 ```bash
