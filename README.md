@@ -1,1 +1,41 @@
 # nesa-miner
+
+Official Docs - https://docs.nesa.ai/nesa/run-a-nesa-node/prerequisites
+First get whitelisted , if you are not whitelisted contact discord admin @fielding in miner channel to get whitelisted
+Use these commands one by one
+
+sudo apt update && sudo apt upgrade -y
+sudo apt-get update
+sudo apt-get install ca-certificates curl
+sudo install -m 0755 -d /etc/apt/keyrings
+sudo curl -fsSL https://download.docker.com/linux/ubuntu/gpg -o /etc/apt/keyrings/docker.asc
+sudo chmod a+r /etc/apt/keyrings/docker.asc
+
+echo \
+  "deb [arch=$(dpkg --print-architecture) signed-by=/etc/apt/keyrings/docker.asc] https://download.docker.com/linux/ubuntu \
+  $(. /etc/os-release && echo "$VERSION_CODENAME") stable" | \
+  sudo tee /etc/apt/sources.list.d/docker.list > /dev/null
+sudo apt-get update
+sudo apt-get install docker-ce docker-ce-cli containerd.io docker-buildx-plugin docker-compose-plugin
+sudo groupadd docker
+sudo usermod -aG docker $USER
+Command to check if jq is installed, If jq is not installed, the script will attempt to install it
+jq --version
+Account and Token Requirements
+Hugging Face API Token
+You will need a Hugging Face API token, HuggingFace
+Installation
+bash <(curl -s https://raw.githubusercontent.com/nesaorg/bootstrap/master/bootstrap.sh)
+Now follow the youtube video
+
+Check docker container
+
+docker ps
+To get peer_id run the script again and check the right corner of your screen
+bash <(curl -s https://raw.githubusercontent.com/nesaorg/bootstrap/master/bootstrap.sh)
+Check Node status : https://node.nesa.ai/nodes/YOUR_PEER_ID
+
+Done !! Feel free to ask queries in telegram channel
+
+
+
