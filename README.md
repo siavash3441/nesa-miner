@@ -44,8 +44,6 @@ jq --version
 bash <(curl -s https://raw.githubusercontent.com/nesaorg/bootstrap/master/bootstrap.sh)
 ```
 
-- Now follow the youtube video
-
 - Check docker container
 ```bash
 docker ps
