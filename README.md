@@ -45,6 +45,8 @@ jq --version
 ```bash
 bash <(curl -s https://raw.githubusercontent.com/nesaorg/bootstrap/master/bootstrap.sh)
 ```
+- MODEL_NAME=
+"nlptown/bert-base-multilingual-uncased-sendtiment"
 
 - Check docker container
 ```bash
