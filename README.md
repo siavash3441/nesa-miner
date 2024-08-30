@@ -1,4 +1,6 @@
 # Nesa-Miner by @siavash3441
+
+![Nesa Bootstrap Process](https://raw.githubusercontent.com/nesaorg/bootstrap/master/images/bootstrap.gif)
 ---
 - Official Docs - https://docs.nesa.ai/nesa/run-a-nesa-node/prerequisites
 - First get [whitelisted](https://beta.nesa.ai/) , if you are not whitelisted contact discord admin @fielding in miner channel to get whitelisted
