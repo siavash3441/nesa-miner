@@ -48,7 +48,7 @@ bash <(curl -s https://raw.githubusercontent.com/nesaorg/bootstrap/master/bootst
 - MODEL_NAME=
 "nlptown/bert-base-multilingual-uncased-sendtiment"
 - Referral Code:
-- 
+- nesa1jgaxcu8vhch64h30gsh3d77u6qscjeq8wj69p6
 
 - Check docker container
 ```bash
